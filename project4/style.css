@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    height: 100%;
+    width: 100%;
+} */
+.section1{
+    height: 800px;
+    width: 100%;
+    background-image: url("developer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    color: white;
+    margin-left: 150px;
+    padding-top:50px;
+}
+.text p{
+   text-transform:uppercase;
+}
+span{
+    font-size: 20px;
+}
+p{
+    font-size: 30px;
+}
+.hero1{
+    height: 90px;
+    width: 100%;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero2{
+    font-size: 35px;
+    padding-left: 10px;
+    font-weight:50px
+}
+.imgages{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.img{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(208, 203, 203);
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    text-align: center;
+}
+.img:hover{
+    border: 5px solid rgb(10, 10, 10);
+}
+h2{
+    padding-top: 9px;
+    padding-top: 15px;
+    text-align: center;
+}
+.footer1{
+    height: 200px;
+    width: 100%;
+    text-align: center; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.foot1{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(14, 66, 14);
+}
+.foot2{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(70, 6, 6);
+}
+h1{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.footer2{
+    height: 80px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+}
+
